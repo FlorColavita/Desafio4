@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+	background: url('../images/back2.jpeg');
+	background-size: cover;
+	background-position: bottom;
+	height: 100vh;
+}
+
+main {
+	background: #fff;
+	width: 70%;
+	margin: auto;
+	margin-top: 30px;
+	padding: 30px;
+}
+
+main article {
+	overflow: auto;
+}
+
+main article header {
+	background: url('../images/back1.jpg');
+	background-size: cover;
+	background-position: -250px top;
+	padding: 40px 20px;
+	margin-bottom: 30px;
+}
+
+main article header h1 {
+	color: #fff;
+	text-align: right;
+	font-weight: 800;
+	letter-spacing: 1px;
+	font-size: 2em;
+}
+
+main article header h1 span {
+	color: red;
+}
+
+main article section {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	padding-right: 20px;
+	border-right: 5px dotted red;
+}
+
+main article section.rodaje {
+	margin-right: 0;
+	border: none;
+}
+
+main article section h2 {
+	background: red;
+	font-weight: 800;
+	padding: 10px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+main article section.casting h2 {
+	background: blue;
+}
+
+main article section.casting {
+	border-color: blue;
+}
+
+main article section.rodaje h2 {
+	background: green;
+}
+
+main article section p {
+	margin-bottom: 10px;
+	line-height: 180%;
+	font-size: 14px;
+}
+
+main article section ul li {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
